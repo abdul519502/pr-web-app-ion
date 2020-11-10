@@ -3,10 +3,11 @@
     {
       "ami_name": "ion-packer-{{timestamp}}",
       "instance_type": "t2.micro",
-      "source_ami": ami-07efac79022b86107
-      "region": us-east-2
+      "source_ami": "ami-07efac79022b86107",
+      "region": "us-east-2"
       },
-      "ssh_username": "ubuntu",
+      {
+        "ssh_username": "ubuntu",
       "type": "amazon-ebs"
     }
   ],
@@ -16,4 +17,3 @@
       "script": "./build-customAMI.sh"
     }
   ]
-}
