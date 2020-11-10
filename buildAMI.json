@@ -1,6 +1,6 @@
 {
  "builders": [{
-   "ami_name": "ion-packer-{{timestamp}}",
+   "ami_name": "app-packer-{{timestamp}}",
    "instance_type": "t2.micro",
    "source_ami": "ami-07efac79022b86107",
    "region": "us-east-2"
